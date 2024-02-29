@@ -10,4 +10,10 @@ export class Post {
 
   @Column()
   description: number;
+
+  @Column()
+  content: string;
+
+  @Column()
+  createdAt: Date;
 }
